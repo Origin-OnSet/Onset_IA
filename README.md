@@ -28,7 +28,7 @@ CreatePoint(x,y,z, mode) -- Create new Force Mode point
 SetIaTarget(npc, player) -- Set new Target
 ```
 ```lua
-SetIaClothing(npc, clothingId) -- Set Clothing of AI
+SetIaClothing(npc, clothingId) -- Set Clothing preset of AI
 ```
 ```lua
 SetIaSpeed(npc, speed) -- Set AI Speed
@@ -60,15 +60,15 @@ DestroyIa(npc) -- Destroy specify AI
 AI change mode automatic witch condition but if you want to force change mode
 
 Mode 0: AI follow player
-Mode 1: Force IA pass through a specific point
-Mode 2: takes the same route as the player until passing through a point of type 2
+Mode 1: Force AI pass through a specific point
+Mode 2: Takes the same way as the player until passing through a point of type 2
 ```
 
 ## Exemple
 ```lua
-local ia = ImportPackage("Onset_IA") -- Import to your Server Script Onset_IA
+local ia = ImportPackage("Onset_IA") -- Import the package to your server script
 
-local npc = ia.CreateIa(0, 0, 1700, 0) -- if you don't set target the script the script will find it
+local npc = ia.CreateIa(0, 0, 1700, 0) -- if you don't set target the script will find it
 
 ia.SetIaClothing(npc, 12) -- Change clothing of AI
 ia.SetIaSpeed(npc, 300) -- Change Speed of AI
@@ -80,7 +80,7 @@ AddPlayerChat(Target, "Your are the target of AI n°"..npc)
 ```
 
 ## Discord
-Join Origin [Discord](https://discord.gg/MDEwtKr) server now !
+🌌 Origin [Discord](https://discord.gg/MDEwtKr) 
 
 ## License
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License
