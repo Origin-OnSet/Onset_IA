@@ -20,19 +20,38 @@ After that you should be able to use the built-in functions
 ## Function
 ```lua
 CreateIa(x, y, z, h [,clothingId, target]) -- Create new AI and Return npc Id
+```
+```lua
 CreatePoint(x,y,z, mode) -- Create new Force Mode point
-
+```
+```lua
 SetIaTarget(npc, player) -- Set new Target
+```
+```lua
 SetIaClothing(npc, clothingId) -- Set Clothing of AI
+```
+```lua
 SetIaSpeed(npc, speed) -- Set AI Speed
+```
+```lua
 SetIaMode(npc, mode) -- Set AI Mode
-
+```
+```lua
 GetPlayerDist(player, npc) -- Return Distance between AI and Player
+```
+```lua
 GetPlayerTarget(player) -- Return all AI who we Target Player
+```
+```lua
 GetIaTarget(npc) -- Return Target of AI
+```
+```lua
 GetIaMode(npc) -- Return Mode of AI
-
+```
+```lua
 DestroyAllIa() -- Destroy All AI
+```
+```lua
 DestroyIa(npc) -- Destroy specify AI
 ```
 
