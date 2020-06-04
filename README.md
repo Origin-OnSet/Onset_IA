@@ -1,5 +1,5 @@
 # Onset_IA
-This package is a new Advenced AI Syteme
+This package is a new Advenced AI Sytem
 
 ## How to install
 - Add the "Onset_IA" folder to your server packages 
@@ -11,7 +11,7 @@ This package is a new Advenced AI Syteme
 	"Onset_IA"
 ],
 ```
-- On the files who needs to add weapons to player, initialize the Onset_IA using this function  
+- On the files who needs to use the AI, initialize the Onset_IA package using this function  
 ```lua
 local ia = ImportPackage("Onset_IA")
 ```
