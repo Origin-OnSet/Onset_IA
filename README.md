@@ -37,13 +37,13 @@ DestroyIa(npc) -- Destroy specify AI
 ```
 
 ## AI Mode
-``
+```
 AI change mode automatic witch condition but if you want to force change mode
 
 Mode 0: AI follow player
 Mode 1: Force IA pass through a specific point
 Mode 2: takes the same route as the player until passing through a point of type 2
-``
+```
 
 ## Exemple
 ```lua
@@ -55,7 +55,7 @@ ia.SetIaClothing(npc, 12) -- Change clothing of AI
 ia.SetIaSpeed(npc, 300) -- Change Speed of AI
 ia.SetIaMode(npc, 0) -- Change mode of AI
 
-local Target = GetIaTarget(npc)
+local Target = ia.GetIaTarget(npc)
 
 AddPlayerChat(Target, "Your are the target of AI n°"..npc)
 ```
